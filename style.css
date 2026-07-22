@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+.headcon {
+    background-color: #d81212;
+}
+
+.container {
+    background-color: yellow;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px 20px 0px;
+    border-radius: 0px 13px 13px 0px;
+    margin: 20px 20px 20px 0px;
+    gap: 5px;
+    
+}
+
+.side-nav {
+    background-color: brown;
+    flex: 4;
+    border-radius: 0px 13px 13px 0px;
+}
+
+.main-content {
+    background-color: green;
+    border-radius: 13px;
+    flex: 6;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.column {
+    flex: 1 1 250px;
+    border-radius: 13px;
+    width: 300px;
+    box-sizing: border-box;
+    background-color: #fff;
+    margin: 10px;
+    overflow-wrap: break-word;
+}
