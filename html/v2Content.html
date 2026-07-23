@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Isi COntent</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body class="bg-primary bg-opacity-10">
+    
+      <div class="card bg-opacity-10 shadow-sm border-0 m-3">
+        <div
+          class="card-header rounded-4 bg-white bg-opacity-10 border-bottom-0 pt-4 pb-2 d-flex flex-column gap-2 flex-md-row align-items-center justify-content-between"
+        >
+          <div class="d-flex flex-column justify-content-center gap-2">
+            <h5
+              class="xxl-0 fw-bold font-weight-bold"
+              style="font-family: &quot;Poppins&quot;, sans-serif !important"
+            >
+              Data Siswa Prakering
+              <span
+                class="badge bg-primary fw-normal bg-opacity-10 text-primary rounded-pill fs-6"
+              >
+                - siswa</span
+              >
+            </h5>
+
+            <div class="d-flex gap-2">
+              <select
+                class="forms-select p-2 rounded-3 w-auto border-primary border-opacity-10 bg-primary bg-opacity-10 text-dark fw-semibold"
+              >
+                <option>Semua Status</option>
+                <option>Aktif</option>
+                <option>Selesai</option>
+                <option>DiKembalikan</option>
+              </select>
+
+              <select
+                class="forms-select p-2 rounded-3 w-auto border-primary border-opacity-10 bg-primary bg-opacity-10 text-dark fw-semibold"
+              >
+                <option>Semua Status</option>
+                <option>-</option>
+                <option>-</option>
+                <option>-</option>
+              </select>
+            </div>
+          </div>
+
+          <div
+            class="justify-content-center d-flex flex-column flex-md-column gap-2 align-items-center"
+          >
+            <button
+              type="button"
+              class="btn btn-md mr-4 btn-primary fw-bold text-light"
+            >
+              <span class="fw-bold text-xxl">+ </span> Tambah Siswa
+            </button>
+            <div>
+              <p class="text-muted mt-2 px-5">Menampilkan semua data</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-body"
+          style="width:auto; height: 500px; overflow:hidden;" >
+          <div class="table-responsive">
+            <table table class="table table-hover align-middle mb-4">
+              <thead
+                class="table-light"
+                style="font-family: &quot;Poppins&quot;, sans-serif !important"
+              >
+                <tr>
+                  <th
+                    class="text-uppercase text-secondary fw-bold border-0 py-3 rounded-start"
+                  >
+                    #
+                  </th>
+                  <th
+                    class="text-uppercase text-secondary fw-bold border-0 py-3"
+                  >
+                    NAMA SISWA
+                  </th>
+                  <th
+                    class="text-uppercase text-secondary fw-bold border-0 py-3"
+                  >
+                    NISN
+                  </th>
+                  <th
+                    class="text-uppercase text-secondary fw-bold border-0 py-3"
+                  >
+                    ASAL SEKOLAH
+                  </th>
+                  <th
+                    class="text-uppercase text-secondary fw-bold border-0 py-3"
+                  >
+                    JURUSAN
+                  </th>
+                  <th
+                    class="text-uppercase text-secondary fw-bold border-0 py-3"
+                  >
+                    PERIODE
+                  </th>
+                  <th
+                    class="text-uppercase text-secondary fw-bold border-0 py-3"
+                  >
+                    STATUS
+                  </th>
+                  <th
+                    class="text-uppercase text-secondary fw-bold border-0 py-3 rounded-end"
+                  >
+                    EDIT
+                  </th>
+                </tr>
+              </thead>
+              <tbody class="border-top-0">
+                <!-- data isi table mulai -->
+                <tr>
+                  <td>1</td>
+                  <td>Firman Bintang N</td>
+                  <td>1234567890</td>
+                  <td>SMK Negeri 1 Sudimoro</td>
+                  <td>Teknik Komputer dan Jaringan</td>
+                  <td>2026/2027</td>
+                  <td>Aktif</td>
+                  <td>
+                    <button class="btn btn-sm btn-outline-primary">Edit</button>
+                  </td>
+                </tr>
+
+                <td>1</td>
+                  <td>Firman Bintang N</td>
+                  <td>1234567890</td>
+                  <td>SMK Negeri 1 Sudimoro</td>
+                  <td>Teknik Komputer dan Jaringan</td>
+                  <td>2026/2027</td>
+                  <td>Aktif</td>
+                  <td>
+                    <button class="btn btn-sm btn-outline-primary">Edit</button>
+                  </td>
+                </tr>
+
+                <td>1</td>
+                  <td>Firman Bintang N</td>
+                  <td>1234567890</td>
+                  <td>SMK Negeri 1 Sudimoro</td>
+                  <td>Teknik Komputer dan Jaringan</td>
+                  <td>2026/2027</td>
+                  <td>Aktif</td>
+                  <td>
+                    <button class="btn btn-sm btn-outline-primary">Edit</button>
+                  </td>
+                </tr>
+
+                <td>1</td>
+                  <td>Firman Bintang N</td>
+                  <td>1234567890</td>
+                  <td>SMK Negeri 1 Sudimoro</td>
+                  <td>Teknik Komputer dan Jaringan</td>
+                  <td>2026/2027</td>
+                  <td>Aktif</td>
+                  <td>
+                    <button class="btn btn-sm btn-outline-primary">Edit</button>
+                  </td>
+                </tr>
+
+                <td>1</td>
+                  <td>Firman Bintang N</td>
+                  <td>1234567890</td>
+                  <td>SMK Negeri 1 Sudimoro</td>
+                  <td>Teknik Komputer dan Jaringan</td>
+                  <td>2026/2027</td>
+                  <td>Aktif</td>
+                  <td>
+                    <button class="btn btn-sm btn-outline-primary">Edit</button>
+                  </td>
+                </tr>
+
+                <td>1</td>
+                  <td>Firman Bintang N</td>
+                  <td>1234567890</td>
+                  <td>SMK Negeri 1 Sudimoro</td>
+                  <td>Teknik Komputer dan Jaringan</td>
+                  <td>2026/2027</td>
+                  <td>Aktif</td>
+                  <td>
+                    <button class="btn btn-sm btn-outline-primary">Edit</button>
+                  </td>
+                </tr>
+
+                <td>1</td>
+                  <td>Firman Bintang N</td>
+                  <td>1234567890</td>
+                  <td>SMK Negeri 1 Sudimoro</td>
+                  <td>Teknik Komputer dan Jaringan</td>
+                  <td>2026/2027</td>
+                  <td>Aktif</td>
+                  <td>
+                    <button class="btn btn-sm btn-outline-primary">Edit</button>
+                  </td>
+                </tr>
+
+                <!-- Data isi table selesai -->
+              </tbody>
+            </table>
+
+            <p class="text-muted gap-3">Menampilkan 6 dari 20 data</p>
+          </div>
+        </div>
+      </div>
+    
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
